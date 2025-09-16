@@ -1,5 +1,5 @@
 CREATE TABLE EMPLOYEE_ENTITY (
-                                 id INT AUTO_INCREMENT PRIMARY KEY,
+                                 id SERIAL PRIMARY KEY,
                                  name VARCHAR(255),
                                  email VARCHAR(255),
                                  bloodgroup VARCHAR(50)
